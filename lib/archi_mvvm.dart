@@ -1,4 +1,3 @@
-
 library archi_mvvm;
 
 export 'src/widgets/pressed_widget.dart';
