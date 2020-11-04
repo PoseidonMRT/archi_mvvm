@@ -4,6 +4,11 @@ import 'package:provider/provider.dart';
 
 import 'base_view_model.dart';
 
+///
+/// this is a base implements of which class combine ViewModel and Widgets
+/// when we called notifyListeners method in class which extends from BaseViewModel
+/// and T class Which extends StatefulWidget will been updated
+///
 abstract class ProviderWidgetState<T extends StatefulWidget,
         VM extends BaseViewModel> extends LifecycleAwareState<T>
     with AutomaticKeepAliveClientMixin {

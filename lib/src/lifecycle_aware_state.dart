@@ -1,5 +1,22 @@
 import 'package:flutter/cupertino.dart';
 
+///
+/// LifecycleAwareState is a class which extends from state
+/// in this class, we give the concept of Widget Life cycle
+/// just like View life cycle in Android system
+/// The functions in this class are compared with the lifecycle functions in Android system as follows
+// ----------------------------------------
+// | Android system  | LifecycleAwareState|
+// ----------------------------------------
+// | onCreate        | onPageCreate       |
+// ----------------------------------------
+// | onResume        | onPageResume       |
+// ----------------------------------------
+// | onStart         | onPageStart        |
+// ----------------------------------------
+// | onStop          | onPageStop         |
+// ----------------------------------------
+///
 abstract class LifecycleAwareState<T extends StatefulWidget> extends State<T>
     with RouteAware, WidgetsBindingObserver {
   @override
