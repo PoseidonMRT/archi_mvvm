@@ -8,5 +8,5 @@ archi_mvvm是基于[provioder](https://pub.dev/packages/provider)和MVVM构建�
 
 基于archi_mvvm构建的flutter应用具有下图所示框架：
 
-![软件架构](https://github.com/tuozhaobing/archi_mvvm/blob/main/doc/images/archi_mvvm.png)
+ ![image](https://posidon.oss-cn-chengdu.aliyuncs.com/archi_mvvm.png)
 
